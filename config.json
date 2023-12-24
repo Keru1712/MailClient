@@ -1,0 +1,32 @@
+{
+    "General": {
+        "Username": "1 <1@gmail.com>",
+        "Password": "ahihi",
+        "MailServer": "127.0.0.1",
+        "SMTP": 2225,
+        "POP3": 3335,
+        "Autoload": 10
+    },
+    
+    "Filter": [
+        {   
+            "From": ["ahihi@testing.com", "ahuu@testing.com"],
+            "To_folder": "Project"
+        },
+        {
+            "Subject": ["urgent", "ASAP"],
+            "To_folder": "Important"
+        },
+        {
+            "Content": ["report", "meeting"],
+            "To_folder": "Work"
+        },
+        {
+            "Spam": ["virus", "hack", "crack"],
+            "To_folder": "Spam"
+        }
+    ]
+
+}
+
+
